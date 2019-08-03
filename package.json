@@ -1,0 +1,21 @@
+{
+  "name": "password_manager",
+  "version": "1.0.0",
+  "description": "Stores your data in encoded form and decoded when ask for it.",
+  "main": "add.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "nyc": "^14.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Prince Verma",
+  "license": "ISC"
+}
